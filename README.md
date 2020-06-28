@@ -1,2 +1,1 @@
-# openwrt18.06
-openwrt18.06
+OpenWrt 一键安装常用插件
