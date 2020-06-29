@@ -20,7 +20,7 @@ git clone https://github.com/siropboy/mypackages package/mypackages
 
 openwrt 固件编译说明
 
-luci-app-autopoweroff ------------------openclash图形
+luci-app-autopoweroff ------------------定时自动关机
 
 luci-app-advancedsetting ------------------系统高级设置
 
