@@ -1,8 +1,10 @@
 <%#
 
-	luci-theme-butongwifi
-	Copyright 2017 Tracemouse <tracemouse@wcan.in>
+	luci-theme-btmod
+	https://github.com/sirpdboy/luci-theme-btmod
 	
+	Copyright 2017 Tracemouse <tracemouse@wcan.in>
+
 	Smart Menu:
 	https://www.smartmenus.org/
 	
@@ -122,15 +124,6 @@ $(document).ready(function(){
 	 status = ".main-nav > #main-menu > .slide > a[data-title='Control'] > i";
 	 $(status).attr("class","fa fa-cogs");
 	 
-	 $('img').each(function(){
-		 img = $(this).attr('src');
-		 //alert(img);
-		if (img.indexOf("images/wifi.png"))
-		{
-			$(this).after("<i class='fa fa-wifi'></i>");
-			$(this).remove();
-		}
-
 	 });
 	 */
 
